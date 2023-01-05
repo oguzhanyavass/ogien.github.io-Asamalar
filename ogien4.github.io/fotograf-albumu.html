@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ogien - Fotoğraf Albümü</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    #cem-yilmaz {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #maymun{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #piksel-nft{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #metaverse {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #sandbox{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #etherium{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #apple{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #samsung{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #btc{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+    #blockchain{
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    display: block; 
+    margin: auto;
+    border-radius: 10%;
+    }
+        /* Resimlerin üzerine mouse ile geldiğinizde hareketlenme oluşturun */
+    img:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    }
+</style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="anasayfa.html">Ogien</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="anasayfa.html">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="haberler.html">Haberler</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Fotoğraf Albümü</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header">Fotoğraf Albümü</h1>
+        <!-- Breadcrumbs -->
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="anasayfa.html">Anasayfa</a>
+          </li>
+          <li class="breadcrumb-item active">Fotoğraf Albümü</
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <!-- Photo Gallery -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/cem_yilmaz_nft.jpg" class="fancybox" rel="ligthbox">
+          <img id="cem-yilmaz"src="img/cem_yilmaz_nft.jpg" class="zoom img-fluid"  alt="Fotoğraf 1" onclick="openFullscreen(this)">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/maymun-nft.jpg" class="fancybox" rel="ligthbox">
+          <img id="maymun"src="img/maymun-nft.jpg" class="zoom img-fluid"  alt="Fotoğraf 2"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/nft.jpg" class="fancybox" rel="ligthbox">
+          <img id="piksel-nft"src="img/nft.jpg" class="zoom img-fluid"  alt="Fotoğraf 3"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/metaverse.jpg" class="fancybox" rel="ligthbox">
+          <img id="metaverse"src="img/metaverse.jpg" class="zoom img-fluid"  alt="Fotoğraf 4"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/sandbox.jpg" class="fancybox" rel="ligthbox">
+          <img id="sandbox"src="img/sandbox.jpg" class="zoom img-fluid"  alt="Fotoğraf 5"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/Ethereum.jpg" class="fancybox" rel="ligthbox">
+          <img id="etherium"src="img/Ethereum.jpg" class="zoom img-fluid"  alt="Fotoğraf 6"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/iphone14.jpg" class="fancybox" rel="ligthbox">
+          <img id="apple"src="img/iphone14.jpg" class="zoom img-fluid"  alt="Fotoğraf 7"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/samsung.jpg" class="fancybox" rel="ligthbox">
+          <img id="samsung"src="img/samsung.jpg" class="zoom img-fluid"  alt="Fotoğraf 8"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/bitcoin.jpg" class="fancybox" rel="ligthbox">
+          <img id="btc"src="img/bitcoin.jpg" class="zoom img-fluid"  alt="Fotoğraf 9"onclick="openFullscreen()">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="img/blockchain.jpg" class="fancybox" rel="ligthbox">
+          <img id="blockchain"src="img/blockchain.jpg" class="zoom img-fluid"  alt="Fotoğraf 10"onclick="openFullscreen()">
+        </a>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="bg-light py-5">
+  <div class="container">
+    <p class="m-0 text-center text-muted">Copyright &copy; Ogien 2021</p>
+  </div>
+</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0
+  JKI" crossorigin="anonymous"></script>
+  <!-- Lightbox JS -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- Zoom JS -->
+  <script>
+    $(document).ready(function(){
+      $('.zoom').hover(function() {
+        $(this).addClass('transition');
+      }, function() {
+        $(this).removeClass('transition');
+      });
+    });
+  </script>
+</body>
+</html>
